@@ -1,0 +1,164 @@
+
+body{
+    background-color: #73146f;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-family: Cambria;
+    font-size: xx-large;
+    font-style: inherit;
+}
+
+h4{
+    color: rgb(166, 214, 219);
+    font-size: medium;
+    font-family: Cambria;
+    font-size: xx-large;
+    font-style: inherit;
+}
+
+.menus {
+    color:rgb(200, 228, 227);
+    text-align: center;
+    background: 125, 158, 156;
+    padding: 15px;
+    position:relative;
+    bottom:0;
+    width: 100%;
+}
+
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.clara{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.textoclara{
+    margin-top: 70px;
+    padding-right: 100px;
+    width: 36.5%;
+    height: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3{
+    color: rgb(200, 228, 227);
+    text-align:left;
+    background: 125, 158, 156;
+    padding: 10px 0;
+    position:relative;
+    bottom:0;
+    width: 100%;
+    font-family: Cambria;
+}
+
+.about, .services, .testimonials {
+    margin-bottom: 3rem;
+}
+.about h2, .services h2, .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about p, .services p, .testimonials p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+.services li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 2.5px solid #ffffff;
+    border-radius: 5px;
+    color:rgb(166, 214, 219);
+}
+.testimonials blockquote {
+    font-family: Cambria;
+    border-left: 7px solid #333;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color:#000000;
+    background-color: #ffffff;
+}
+footer {
+    background-color: #5e006d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    color: rgb(166, 214, 219);
+    font-size: medium;
+    font-family: Cambria;
+    font-size: xx-large;
+    font-style: inherit;
+}
+
+/* Estilo para os links */
+a {
+    text-decoration: none; /* Sem decoração (sem sublinhado) */
+    font-size: 16px; /* Tamanho da fonte: 16 pixels */
+    color: white; /* Cor do texto: branco */
+    background-color: #ae59d2; /* Cor de fundo: #ae59d2 (um tom de roxo) */
+    padding: 12px; /* Preenchimento de 12 pixels em todos os lados */
+    display: block; /* Exibe o link como um bloco */
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 10px; /* Margem de 10px ao redor do link */
+    border-radius: 4px; /* Bordas arredondadas com raio de 4 pixels */
+    height: 100%; /* Ocupar 100% da altura da tela */
+    width: 100%; /* Ocupar 100% da largura da tela */
+    max-width: 900px; /* Limita a largura máxima do link */
+}
+
+a:hover {
+    background-color: #ffffff; /* Muda a cor do fundo ao passar o mouse */
+    color: #ae59d2; /* Muda a cor do texto ao passar o mouse */
+}
+
+/* Estilos para a galeria */
+.galeria {
+    display: flex; /* Usando flexbox para disposição das imagens */
+    justify-content: center; /* Centralizando as imagens */
+    gap: 10px; /* Espaço entre as imagens */
+    margin-bottom: 30px; /* Espaçamento inferior para separar as seções */
+}
+
+/* Estilo para as imagens */
+.galeria img {
+    width: 400px;
+    height: auto; /* Garantindo que as imagens mantenham suas proporções */
+    border-radius: 8px; /* Bordas arredondadas nas imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para as imagens */
+    transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Efeito de zoom ao passar o mouse sobre as imagens */
+.galeria img:hover {
+    transform: scale(1.05); /* Aumentando um pouco a imagem */
+}
+
+/* Estilos de espaçamento */
+br {
+    display: block;
+    margin: 10px 0; /* Espaço entre as imagens e outras seções */
+}
